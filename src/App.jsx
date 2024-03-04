@@ -34,7 +34,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+  basename: '/daily-routines'
+});
 
 export default function App() {
   const theme = useTheme();

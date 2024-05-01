@@ -35,7 +35,7 @@ const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: '/daily-routines'
+  basename: '/'
 });
 
 export default function App() {
